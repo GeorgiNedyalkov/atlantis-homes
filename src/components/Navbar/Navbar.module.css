@@ -1,0 +1,18 @@
+.navigation {
+    height: 60px;
+    background-color: white;
+}
+
+.navigation_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media screen and (min-width: 900px) {
+    .navigation {
+        height: 80px;
+    }
+    
+}

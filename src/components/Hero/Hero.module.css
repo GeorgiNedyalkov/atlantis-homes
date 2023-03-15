@@ -1,0 +1,21 @@
+.hero_img_container {
+  width: 100vw;
+}
+
+.hero_img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  z-index: 999;
+  left: calc(30vw);
+  top: calc(30vh);
+}

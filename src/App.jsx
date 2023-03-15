@@ -1,17 +1,14 @@
-import hero from "./assets/Exterior/hero.jpg";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <h1>Atlantis Homes 3</h1>
-      <div className="hero__img">
-        <img src={hero} alt="" />
-      </div>
-      <h2>heading 2</h2>
-      <h3>heading 3</h3>
-      <h4>heading 4</h4>
-      <h5>heading 5</h5>
-      <p>Hello there homie</p>
+      <Navbar />
+      <Hero />
+      <Contact />
     </div>
   );
 }
